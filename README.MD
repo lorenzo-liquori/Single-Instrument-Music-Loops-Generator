@@ -34,7 +34,7 @@ Install the libraries for the **generation models** you want to use:
   https://huggingface.co/settings/tokens
 - **CUDA drivers** and a **CUDA-compatible GPU** are required.  
   Recommended: **NVIDIA A100** for music generation inference.  
-  It may also work on **T4 GPUs**, but memory is often insufficient to complete inference.
+  If executing it on Google Colab, it may also work on **T4 GPUs**, but memory is often insufficient to complete inference.
 
 ## 3. Upload audio
 Go to **UPLOAD** and:
