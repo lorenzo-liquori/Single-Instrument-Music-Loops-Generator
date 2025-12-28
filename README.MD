@@ -1,4 +1,4 @@
-# SiMlGenerator: Single-Instrument Music-Loops Generator
+# SI-ML-Generator: Single-Instrument Music-Loops Generator
 ## What is it?
 It's a (audio/text)-to-audio pipeline that, as the name says, is able to take a musical idea of the user (as audio file), and generate a specified single instrument loop, with specified style and characteristics, that is coherent with the given idea, automatically understanding and following technical constraints such as BPM and Key, and more broad constraints such as Genre and Mood, in order to make the final generation as coherent as possible with the initially given idea.
 
