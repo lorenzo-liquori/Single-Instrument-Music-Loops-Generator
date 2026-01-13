@@ -5,7 +5,7 @@ This is a (audio/text)-to-audio pipeline that, as the name says, is able to take
 For the generation you can choose between 3 different generative models, which, because of very different training data and method, yields substantially different results given the same input.
 Given the same audio + text prompt input, here is a brief comparison between the models:
 - **AudioLDM2-Music**: very unexpected results, can be interesting for experimental generative sounds, expecially on "long" sounds (such as pads, drones...). Not very trustable when it comes to the Key and BPM constraints.
-- **Stable Audio Open**: the best model for single instrument generation, dry-sounding loops ready to work with, you can feel how the training data contains also a good amount of separated instruments and the model performs pretty well on them. Pretty much controllable, sometimes lacks a bit of creativity, which can be a pro in some contexts and a cons in others.
+- **Stable Audio Open**: the best model for single instrument generation, dry-sounding loops ready to work with, you can feel how the training data contains also a good amount of separated instruments and the model performs pretty well on them. Pretty much controllable, sometimes lacks a bit of creativity, which can be a pro in some contexts and a con in others.
 - **MusicGen**: state-of-the-art model, definitely more creative than Stable Audio Open, creates intricate melodies, rhythms and soundscapes, BUT often refuses to generate just the instrument requested, generating also related instruments (expecially adding drums) or sounds, and making the output audio pretty wet of distortion or spacial effects even if not requested
 
 
